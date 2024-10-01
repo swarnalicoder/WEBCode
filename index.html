@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Css Multicolor</title>
+    <style>
+        :root{
+            --text-color: white;
+            --secondary-color: #563107;
+            --primary-color: #941a1a;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+       nav{
+        background-color: var(--primary-color);
+        padding: 12px;
+       }
+        ul li{
+            /*this remove label*/
+            list-style: none; 
+             
+            display: inline;
+            padding: 23px;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
